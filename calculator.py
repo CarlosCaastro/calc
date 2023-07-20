@@ -1,4 +1,3 @@
-# calculator.py
 from operations import Operations
 
 class Calculator:
