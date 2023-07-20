@@ -57,3 +57,9 @@ class Calculator:
                 print("Opção inválida. Tente novamente.")
 
             print("Resultado:", result)
+
+    def evaluate_expression(self, expression):
+        try:
+            return eval(expression)
+        except Exception as error:
+            raise ValueError(f"Expressão inválida. {error}")
